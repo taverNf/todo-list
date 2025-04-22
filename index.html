@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de tarefas</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/d98fb764dc.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+    <!-- PROJETO FEITO EM CONJUNTO COM OS VÍDEOS: -->
+    <!-- https://www.youtube.com/watch?v=IuCZPOk5EXo - AULA 4 -->
+    <!-- https://www.youtube.com/watch?v=RjfhRZXB_U8&t=2s - AULA 5 -->
+    <!-- AMBOS VÍDEOS DO 'CURSO DE JS DO ZERO', DA RAFAELLA BALLERINI -->
+    
+    <main id="container">
+        <h1>Lista de tarefas</h1>
+        <input type="text" id="input" placeholder="Digite sua tarefa (máx. 16 digitos)" autocomplete="off" maxlength="16">
+        <button id="buttonAdd" onclick="addTarefa()">Adicionar tarefa</button>
+        <button id="buttonClear" onclick="clearTarefas()">Limpar lista</button>
+        <p id="message"></p>
+        <ul id="lista"></ul>
+    </main>
+    
+    <script src="script.js"></script>
+</body>
+</html>
