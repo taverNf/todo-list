@@ -26,7 +26,7 @@ body{
 main{
     height: 90vh;
     width: 500px;
-    padding: 2rem 4rem;
+    padding: 5vh 4vw;
 
     display: flex;
     flex-direction: column;
@@ -158,7 +158,7 @@ p{
 ul{
     margin-top: 1rem;
 
-    height: 8rem;
+    height: 21.5vh;
     width: 100%;
     padding: 1rem;
     overflow: hidden scroll;
